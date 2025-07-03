@@ -10,18 +10,16 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 
 function HomePage() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Awards />
-      <Stats />
-      <Pricing />
-      <Education />
-      <OpenAccount />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Hero />
+            <Awards />
+            <Stats />
+            <Pricing />
+            <Education />
+            <OpenAccount />
+        </>
+    );
 }
 
 export default HomePage;

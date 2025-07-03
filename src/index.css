@@ -13,5 +13,37 @@ code {
 }
 
 .nav-link {
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+#supportHero {
+    background-color: rgb(56, 126, 209);
+    color: white;
+}
+
+#supportHero a {
+    color: white;
+}
+
+#supportWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+#supportHero input {
+    padding: 20px 50px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.quick-links a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
+    margin-right: 20px;
+    white-space: nowrap;
+    display: inline-block;
 }
